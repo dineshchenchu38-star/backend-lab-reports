@@ -1,6 +1,6 @@
 # Lab 2: SQLite database and CRUD routes
 
-**Name:** YOUR NAME · **Registration number:** YOUR REG NO · **Section:** YOUR SECTION
+**Name:** Chenchu Dinesh · **Registration number:** 252U1R9024 · **Section:** CSE-GenAI-2A
 
 **Live link:** PASTE_PUBLIC_URL_HERE
 <!-- If you cannot deploy, replace the line above with the reason, and make sure the Postman screenshots below cover every endpoint. -->
@@ -58,19 +58,28 @@ All queries that take user input use `?` placeholders (parameterised queries).
 
 ## Screenshots
 
-<!-- Add your Postman screenshots to the screenshots/ folder, then uncomment and edit these lines. -->
+The following screenshots demonstrate the successful execution of all CRUD routes and error handling.
 
-<!--
-![GET all books](screenshots/get-all.png)
-![GET one book](screenshots/get-one.png)
-![GET book not found (404)](screenshots/get-one-404.png)
-![POST add book (201)](screenshots/post.png)
-![PUT update book](screenshots/put.png)
-![DELETE book](screenshots/delete.png)
-![Database in SQLite CLI after changes](screenshots/db-after.png)
--->
+### 1. GET – All Books
+![GET All Books](screenshots/get-all-books.png)
 
-Command-line test run of every route, including error cases: [screenshots/curl_test_output.txt](screenshots/curl_test_output.txt)
+### 2. GET – Book by ID
+![GET Book by ID](screenshots/get-book-by-id.png)
+
+### 3. POST – Add New Book
+![POST New Book](screenshots/post-book.png)
+
+### 4. PUT – Update Book
+![PUT Update Book](screenshots/put-book.png)
+
+### 5. DELETE – Delete Book
+![DELETE Book](screenshots/delete-book.png)
+
+### 6. Error Handling
+![Error Cases](screenshots/error-cases.png)
+
+### Command-line Test Output
+[View complete curl test output](screenshots/curl_test_output.txt)s/curl_test_output.txt)
 
 ## Notes: problems faced and how I solved them
 
