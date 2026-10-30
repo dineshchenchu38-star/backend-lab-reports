@@ -1,0 +1,32 @@
+== GET /books/ ==
+[{"id":1,"title":"The Alchemist","author":"Paulo Coelho","price":299,"pages":208},{"id":2,"title":"Wings of Fire","author":"A.P.J. Abdul Kalam","price":350,"pages":180},{"id":3,"title":"The Guide","author":"R.K. Narayan","price":275,"pages":240},{"id":4,"title":"Malgudi Days","author":"R.K. Narayan","price":250,"pages":256},{"id":5,"title":"The White Tiger","author":"Aravind Adiga","price":399,"pages":321},{"id":6,"title":"Train to Pakistan","author":"Khushwant Singh","price":320,"pages":181},{"
+== GET /books/3/ ==
+{"id":3,"title":"The Guide","author":"R.K. Narayan","price":275,"pages":240}
+HTTP 200
+== GET /books/999/ (not found) ==
+{"error":"Book not found"}
+HTTP 404
+== GET /books/1%20OR%201=1/ (injection attempt) ==
+{"error":"Book not found"}
+HTTP 404
+== POST /books/ ==
+{"bookId":11}
+HTTP 201
+== POST /books/ invalid ==
+{"error":"title, author (non-empty strings), price (integer >= 0) and pages (integer > 0) are required"}
+HTTP 400
+== PUT /books/11/ ==
+{"message":"Book updated successfully"}
+HTTP 200
+== GET /books/11/ after PUT ==
+{"id":11,"title":"Python Crash Course 3e","author":"Eric Matthes","price":649,"pages":552}
+HTTP 200
+== PUT /books/999/ ==
+{"error":"Book not found"}
+HTTP 404
+== DELETE /books/11/ ==
+{"message":"Book deleted successfully"}
+HTTP 200
+== DELETE /books/11/ again ==
+{"error":"Book not found"}
+HTTP 404
