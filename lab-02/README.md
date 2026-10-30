@@ -61,25 +61,26 @@ All queries that take user input use `?` placeholders (parameterised queries).
 The following screenshots demonstrate the successful execution of all CRUD routes and error handling.
 
 ### 1. GET – All Books
-![GET All Books](screenshots/get-all-books.png)
+![GET All Books](screenshots/Get-all.png)
 
 ### 2. GET – Book by ID
-![GET Book by ID](screenshots/get-book-by-id.png)
+![GET Book by ID](screenshots/Get-one.png)
 
 ### 3. POST – Add New Book
-![POST New Book](screenshots/post-book.png)
+![POST New Book](screenshots/post.png)
 
 ### 4. PUT – Update Book
-![PUT Update Book](screenshots/put-book.png)
+![PUT Update Book](screenshots/put.png)
 
 ### 5. DELETE – Delete Book
-![DELETE Book](screenshots/delete-book.png)
+![DELETE Book](screenshots/Delete.png)
 
 ### 6. Error Handling
-![Error Cases](screenshots/error-cases.png)
+![Error Cases](screenshots/Get-one-404.png)
 
-### Command-line Test Output
-[View complete curl test output](screenshots/curl_test_output.txt)s/curl_test_output.txt)
+### 7. SQLite CLI
+[Database in SQLite CLI after changes](screenshots/Sql-cli.png)
+-->
 
 ## Notes: problems faced and how I solved them
 
