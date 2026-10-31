@@ -2,8 +2,8 @@
 
 **Name:** Chenchu Dinesh · **Registration number:** 252U1R9024 · **Section:** CSE-GenAI-2A
 
-**Live link:** PASTE_PUBLIC_URL_HERE
-<!-- If you cannot deploy, replace the line above with the reason, and make sure the Postman screenshots below cover every endpoint. -->
+**Live link:** 
+https://backend-lab-reports-fcid.onrender.com
 
 Backend Development Fundamentals · Year II Term II · Faculty: Joel Prashanth D
 
