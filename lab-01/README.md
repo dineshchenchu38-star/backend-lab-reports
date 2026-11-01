@@ -4,7 +4,7 @@ Name: Chenchu Dinesh
 Registration number: 252U1R9002
 Section: Gen-Ai(2A)
 
-Live link: PASTE PUBLIC URL HERE (or explain why it could not be deployed and add Postman screenshots)
+Live link: https://backend-lab-reports-1-6iso.onrender.com/
 
 ## How to run
 
