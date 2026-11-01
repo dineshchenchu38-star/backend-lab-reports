@@ -1,7 +1,7 @@
 # Lab 1: Node.js and Express server
 
 Name: Chenchu Dinesh
-Registration number: 252U1R9002
+Registration number: 252U1R9024
 Section: Gen-Ai(2A)
 
 Live link: https://backend-lab-reports-1-6iso.onrender.com/
