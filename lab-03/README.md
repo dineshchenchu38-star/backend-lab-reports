@@ -8,7 +8,7 @@
 
 ## Live Link
 
-**Deployment URL:** YOUR_LIVE_URL_HERE
+**Deployment URL:** https://backend-lab-reports-3-iwga.onrender.com/
 
 *(If the project cannot be deployed, replace this line with the reason and rely on the Postman screenshots below.)*
 
